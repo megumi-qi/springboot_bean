@@ -11,7 +11,7 @@ public class IocBean {
         ApplicationContext ctx=new AnnotationConfigApplicationContext(SpringConfig.class);
         String[] beanDefinitionNames = ctx.getBeanDefinitionNames();
         for (String bean:beanDefinitionNames){
-            System.out.println(bean);
+            System.out.println("beans"+bean);
         }
     }
 }
