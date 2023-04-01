@@ -1,0 +1,23 @@
+#spring:
+#  datasource:
+#    druid:
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#      url: jdbc:mysql://localhost:3306/db?servierTimezone=UTC
+#      username: root
+#      password: admin
+#
+#
+#mybatis-plus:
+#  global-config:
+#    db-config:
+#      table-prefix: t_  #表示表以t_开头
+#     # table-underline: true
+#
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+logging:
+  level:
+    root: info
+
+  pattern: myDemo %d{yyyy-MM-dd HH:mm:ss.SSS} %p %C.%M %m %n
